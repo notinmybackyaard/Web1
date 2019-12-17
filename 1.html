@@ -3,6 +3,30 @@
 <head>
   <title>Part.1</title>
   <meta charset="utf-8">
+
+  <style>
+  #active {
+  }
+  .saw {
+    color:gray;
+  }
+  a {
+    color:orange;
+    text-decoration: none
+  }
+  h1 {
+    font-size:45px;
+    text-align:center;
+  }
+  ol {
+    display: table;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  body {
+    text-align:center;
+  }
+  </style>
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-154665525-1"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
@@ -16,10 +40,10 @@
   <h1><a href="index.html">The Little Prince</a></h1>
   <ol>
     <li><a href="1.html">Part.1</a></li>
-    <li><a href="2.html">Part.2</a></li>
-    <li><a href="3.html">Part.3</a></li>
+    <li><a href="2.html" class="saw">Part.2</a></li>
+    <li><a href="3.html" class="saw" id="acive">Part.3</a></li>
   </ol>
-  <h2>Part.1</h2>
+  <h2><a style="text-decoration: underline">Part.1</a></h2>
   <p>
     <iframe width="560" height="315" src="https://www.youtube.com/embed/rCNOh5Bbt3g" frameborder="0"
     allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
